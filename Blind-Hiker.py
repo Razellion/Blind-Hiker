@@ -3,7 +3,7 @@ import pylab
 import random 
   
 #number of steps 
-n = 100
+n = int(input("Input Number of Steps: "))
   
 #creating two array for x and y coordinate, filled with 0
 x = numpy.zeros(n) 
